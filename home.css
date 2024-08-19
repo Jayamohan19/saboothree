@@ -1229,7 +1229,7 @@ footer .plu{
 
 /******************************** Media query  *************************************/
 
-@media (min-width:280px) and (max-width:650px) {
+@media (min-width: 280px) and (max-width: 650px) and (orientation: landscape){
     html {
         font-size: 65%;
         overflow-x: hidden;
