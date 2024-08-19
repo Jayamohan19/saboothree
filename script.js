@@ -4,7 +4,7 @@ var signin = document.querySelector(".signin");
 var title = document.querySelector("title");
 
 hicon.addEventListener("click", () => {
-    hicon.innerHTML = "<img src='./img/pngegg.png'>";
+    hicon.innerHTML = "<img src='./pngegg.png'>";
 
     overlay.style.display = "block";
     signin.style.display = "block";
@@ -17,7 +17,7 @@ var cancel = document.getElementById("cancel");
 cancel.addEventListener("click", () => {
     overlay.style.display = "none";
     signin.style.display = "none";
-    hicon.innerHTML = "<img src='./img/love.png'>";
+    hicon.innerHTML = "<img src='./love.png'>";
     title.textContent = "Saboothree";
 });
 
@@ -74,7 +74,7 @@ moveimg.addEventListener("click", function () {
     var ndiv = document.createElement("div");
     ndiv.setAttribute("class", "hii");
 
-    ndiv.innerHTML = `<img src="./img/perf.png" alt="">
+    ndiv.innerHTML = `<img src="./perf.png" alt="">
     
     <h1 >Discover Your Signature Fragrance</h1>
     <p> Repellendus deserunt obcaecati, quia repudiandae ut tempore non in odit, iure quam aliquam porro? Incidunt magnam aliquid ipsum in amet enim perferendis ex repudiandae rem cum qui inventore deserunt   nostrum suscipit earum temporibus</p>
